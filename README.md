@@ -29,13 +29,13 @@ lines or items are set in bold:
 [default]
 exten => s,1,Dial(Zap/1|30)
 exten => s,2,Voicemail(u100)
-exten => s,102,Voicemail(b100)
+**exten => s,102,Voicemail(b100)**
 exten => i,1,Voicemail(s0)
 ```
 
 Any command-line input or output is written as follows:
 ```
- sudo npm install express request
+ **sudo npm install express request**
 ```
 
 You’ll need the following software:
