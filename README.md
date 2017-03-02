@@ -9,9 +9,7 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 The code will look like the following:
 
-Code words in text, database table names, folder names, filenames, file extensions, pathnames,
-dummy URLs, user input, and Twitter handles are shown as follows:
-"Extract 2015-09-24-raspbian-jessie.img to your Home folder."
+Code words in text, database table names, folder names, filenames, file extensions, pathnames, dummy URLs, user input, and Twitter handles are shown as follows: "Extract 2015-09-24-raspbian-jessie.img to your Home folder."
 
 A block of code is set as follows:
 ```
@@ -20,23 +18,24 @@ root@raspberrypi:/home/pi# passwd
 Enter new UNIX password:
 Retype new UNIX password:
 passwd: password updated successfully
-     root@raspberrypi:/home/pi#
-```     
-
-When we wish to draw your attention to a articular part of a code block, the relevant
-lines or items are set in bold:
+root@raspberrypi:/home/pi#
 ```
+
+
+When we wish to draw your attention to a articular part of a code block, the relevant lines or items are set in bold:
+
+<pre>
 [default]
 exten => s,1,Dial(Zap/1|30)
 exten => s,2,Voicemail(u100)
-** exten => s,102,Voicemail(b100) **
+<b>exten => s,102,Voicemail(b100)</b>
 exten => i,1,Voicemail(s0)
-```
+</pre>
 
 Any command-line input or output is written as follows:
-```
- ** sudo npm install express request **
-```
+
+**`sudo npm install express request`**
+
 
 You’ll need the following software:
 * Win32 Disk Imager 0.9.5 PuTTY
@@ -51,13 +50,7 @@ You’ll need the following software:
 * Android Studio and SDK modules
 * Arduino software
 
-
-In the first chapters, we explain all the basics so you will have everything configured and will be able to use
-the Raspberry Pi Zero without any problems, so you can use it for the projects in this book. We will use some
-basic components, such as sensors, and move to more complex components in the rest of the book. On the software side,
-it is good if you actually have some existing programming skills, especially in JavaScript and in the Node.js framework.
-However, I will explain all the parts of each software piece of this book, so even if you don't have good programming
-skills in JavaScript you will be able to follow along.
+In the first chapters, we explain all the basics so you will have everything configured and will be able to use the Raspberry Pi Zero without any problems, so you can use it for the projects in this book. We will use some basic components, such as sensors, and move to more complex components in the rest of the book. On the software side, it is good if you actually have some existing programming skills, especially in JavaScript and in the Node.js framework. However, I will explain all the parts of each software piece of this book, so even if you don't have good programming skills in JavaScript you will be able to follow along.
 
 ##Related Products
 * [Internet of Things with Arduino Cookbook](https://www.packtpub.com/hardware-and-creative/internet-things-arduino-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781785286582)
