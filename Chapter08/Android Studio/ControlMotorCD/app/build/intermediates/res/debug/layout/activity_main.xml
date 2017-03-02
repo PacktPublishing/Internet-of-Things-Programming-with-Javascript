@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFF33"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arduino" />
+    
+     <TextView
+         android:id="@+id/txtmensaje"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="Control Android-Arduino"
+         android:textSize="15pt" />
+     
+          <Button
+              android:id="@+id/btnAdelante"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="Izquierda"
+              android:text="Left"
+              android:textSize="20pt" />
+          
+          <Button
+              android:id="@+id/btnatras"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="Derecha"
+              android:text="Right"
+              android:textSize="20pt" />
+          
+          <Button
+              android:id="@+id/btndetener"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="Detener"
+              android:text="Stop"
+              android:textSize="20pt" />
+          
+       <TextView
+           android:id="@+id/txtpwm"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center|center_horizontal"
+           android:text="Value PWM:"
+           android:textSize="20pt" />
+       
+       <SeekBar
+           android:id="@+id/velocidad"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:clickable="false"
+           android:max="255"
+           android:minHeight="60dp"
+           android:minWidth="255dp" />
+
+          <TextView
+              android:id="@+id/txtgiro"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:text="Motor:"
+              android:textSize="20pt" />
+          
+       <Button
+           android:id="@+id/btnconectar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="conectar"
+           android:text="Connect..."
+           android:textSize="15pt" />
+
+       <Button
+           android:id="@+id/btndesconectar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="desconectar"
+           android:text="Disconnect ..."
+           android:textSize="15pt" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout><!-- From: file:/C:/Users/PC/AndroidStudioProjects/ControlMotorCD/app/src/main/res/layout/activity_main.xml -->

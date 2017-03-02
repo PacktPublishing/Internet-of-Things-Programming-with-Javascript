@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\PC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\PC\AndroidStudioProjects\ControlMotorCD\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-fe2483b7adf5dd3400cf94ea661a1e32300e680a.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC\AndroidStudioProjects\ControlMotorCD\app\libs\AmarinoLibrary_v0_55.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6e529684291e11458a75a22b4499a54b5280321c">
+        <dex dex="C:\Users\PC\AndroidStudioProjects\ControlMotorCD\app\build\intermediates\pre-dexed\debug\AmarinoLibrary_v0_55-b1b8a201ac23ee7e588cd1204d185fb698368548.jar" />
+    </item>
+
+</items>
