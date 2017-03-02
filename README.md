@@ -8,28 +8,33 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 
 The code will look like the following:
-```
+
 Code words in text, database table names, folder names, filenames, file extensions, pathnames,
 dummy URLs, user input, and Twitter handles are shown as follows:
 "Extract 2015-09-24-raspbian-jessie.img to your Home folder."
 
 A block of code is set as follows:
+```
 # passwd
 root@raspberrypi:/home/pi# passwd
 Enter new UNIX password:
 Retype new UNIX password:
 passwd: password updated successfully
      root@raspberrypi:/home/pi#
+```     
 
 When we wish to draw your attention to a articular part of a code block, the relevant
 lines or items are set in bold:
+```
 [default]
 exten => s,1,Dial(Zap/1|30)
 exten => s,2,Voicemail(u100)
 exten => s,102,Voicemail(b100)
 exten => i,1,Voicemail(s0)
+```
 
 Any command-line input or output is written as follows:
+```
  sudo npm install express request
 ```
 
